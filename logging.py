@@ -4,4 +4,4 @@ import logging
 import os
 
 logging.basicConfig(level=os.environ.get("LOGLEVEL", "INFO"))
-logger = logging.getLogger("authentication")
+logger = logging.getLogger("application")
