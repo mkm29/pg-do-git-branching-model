@@ -28,3 +28,11 @@
 24. `git commit -m 'Added file for basic logging`
 25. `git push --set-upstream origin Feature1`
 26. `git checkout Integration`
+27. `git checkout Feature1`
+28. `touch auth.py`
+29. Add some code to `auth.py`
+30. `git add auth.py`
+31. `git commit -m 'Added JWT auth file'`
+32. `git checkout Integration`
+33. `git merge Feature1`
+34. 
