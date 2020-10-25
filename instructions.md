@@ -35,4 +35,17 @@
 31. `git commit -m 'Added JWT auth file'`
 32. `git checkout Integration`
 33. `git merge Feature1`
-34. 
+34. `git checkout HotFix`
+35. `git merge Feature1`
+36. `git checkout production `
+37. `git merge Feature1`
+38. Resolve merge conflict
+39. `git branch -d Feature1`
+40. `git checkout HotFix`
+41. Change logger type in `logging.py`
+42. `git add logging.py`
+43. `git push --set-upstream origin HotFix`
+44. `git checkout production`
+45. `git merge HotFix`
+46. `git checkout Integration`
+47. `git merge HotFix`
