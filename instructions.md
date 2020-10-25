@@ -28,3 +28,8 @@
 24. `git commit -m 'Added file for basic logging`
 25. `git push --set-upstream origin Feature1`
 26. `git checkout Integration`
+27. `git rebase Feature1`
+28. `git checkout HotFix`
+29. `git merge Integration`
+30. `git checkout production`
+31. `git merge Integration`
